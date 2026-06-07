@@ -1,5 +1,11 @@
 # @medusajs/http-types-generator
 
+## 2.16.0
+
+### Patch Changes
+
+- [#15501](https://github.com/medusajs/medusa/pull/15501) [`b74b5b19569534412a67835ffae8fb3afbf6f5c5`](https://github.com/medusajs/medusa/commit/b74b5b19569534412a67835ffae8fb3afbf6f5c5) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(http-types-generator, types): correctly generate types for OperatorMap
+
 ## 2.15.5
 
 ## 2.15.4

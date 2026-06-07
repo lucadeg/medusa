@@ -1,5 +1,23 @@
 # @medusajs/framework
 
+## 2.16.0
+
+### Patch Changes
+
+- [#15600](https://github.com/medusajs/medusa/pull/15600) [`8a6664d6d445f875f56078fad21fe12a185b9627`](https://github.com/medusajs/medusa/commit/8a6664d6d445f875f56078fad21fe12a185b9627) Thanks [@shahednasser](https://github.com/shahednasser)! - chore(framework, utils, medusa): centralize NODE_ENV production check and tighten secret defaults
+
+- [#15601](https://github.com/medusajs/medusa/pull/15601) [`20352f4fa2f31e5b491c8b1b244c407392939fbf`](https://github.com/medusajs/medusa/commit/20352f4fa2f31e5b491c8b1b244c407392939fbf) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(framework): change for session cookies
+
+- Updated dependencies [[`8a6664d6d445f875f56078fad21fe12a185b9627`](https://github.com/medusajs/medusa/commit/8a6664d6d445f875f56078fad21fe12a185b9627), [`46271f2c4f9b4d107a43b588b1082a3e572fbe76`](https://github.com/medusajs/medusa/commit/46271f2c4f9b4d107a43b588b1082a3e572fbe76), [`dc3e213a3be9d5ae8637863461eab0404bbc0e16`](https://github.com/medusajs/medusa/commit/dc3e213a3be9d5ae8637863461eab0404bbc0e16), [`801dbdb2ae70152aaa5917590885bd36bd44efc4`](https://github.com/medusajs/medusa/commit/801dbdb2ae70152aaa5917590885bd36bd44efc4), [`30f6d407cfaca510939ad161fbbe74feebb97883`](https://github.com/medusajs/medusa/commit/30f6d407cfaca510939ad161fbbe74feebb97883), [`b74b5b19569534412a67835ffae8fb3afbf6f5c5`](https://github.com/medusajs/medusa/commit/b74b5b19569534412a67835ffae8fb3afbf6f5c5), [`13c5dd22802593f5fb5c0a97076a966704aa56c9`](https://github.com/medusajs/medusa/commit/13c5dd22802593f5fb5c0a97076a966704aa56c9), [`14af163eae35be9a204f37c5a87d0b2b59b14054`](https://github.com/medusajs/medusa/commit/14af163eae35be9a204f37c5a87d0b2b59b14054)]:
+  - @medusajs/utils@2.16.0
+  - @medusajs/types@2.16.0
+  - @medusajs/cli@2.16.0
+  - @medusajs/modules-sdk@2.16.0
+  - @medusajs/orchestration@2.16.0
+  - @medusajs/workflows-sdk@2.16.0
+  - @medusajs/deps@2.16.0
+  - @medusajs/telemetry@2.16.0
+
 ## 2.15.5
 
 ### Patch Changes

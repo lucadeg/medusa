@@ -1,5 +1,29 @@
 # @medusajs/dashboard
 
+## 2.16.0
+
+### Patch Changes
+
+- [#15444](https://github.com/medusajs/medusa/pull/15444) [`16894649b020b63ec0c92fe62393ed8c78c331d4`](https://github.com/medusajs/medusa/commit/16894649b020b63ec0c92fe62393ed8c78c331d4) Thanks [@appinteractive](https://github.com/appinteractive)! - fix(dashboard): prevent crash when deleting the last image from product media gallery
+
+- [#15468](https://github.com/medusajs/medusa/pull/15468) [`9f932fc9e586ce13fe7926ffcc388a92facca0cc`](https://github.com/medusajs/medusa/commit/9f932fc9e586ce13fe7926ffcc388a92facca0cc) Thanks [@Ultron03](https://github.com/Ultron03)! - fix(dashboard): preserve zero-amount shipping option prices on re-save
+
+  Falsy checks treated a price of `0` as unset, dropping free-shipping prices from the API payload on subsequent edits. Replaced `!value` with `value === undefined || value === ""` in the create/edit form handlers, fixed the same issue in `buildShippingOptionPriceRules`, and used `??` instead of `||` in the price cell initialisation.
+
+- [#15483](https://github.com/medusajs/medusa/pull/15483) [`964313ffdd69c82f51b50eb76a5ff3ef1fa75d2d`](https://github.com/medusajs/medusa/commit/964313ffdd69c82f51b50eb76a5ff3ef1fa75d2d) Thanks [@aritradhabal](https://github.com/aritradhabal)! - csv accepted mime type to include `application/vnd.ms-excel`
+
+- [#15571](https://github.com/medusajs/medusa/pull/15571) [`13c5dd22802593f5fb5c0a97076a966704aa56c9`](https://github.com/medusajs/medusa/commit/13c5dd22802593f5fb5c0a97076a966704aa56c9) Thanks [@shahednasser](https://github.com/shahednasser)! - chore(dashboard,js-sdk,types,auth): extract MFA and recovery code provider interfaces to types package
+
+- [#15486](https://github.com/medusajs/medusa/pull/15486) [`fc92079ac843a5304d37d94663edd3a31e42de73`](https://github.com/medusajs/medusa/commit/fc92079ac843a5304d37d94663edd3a31e42de73) Thanks [@xonaib](https://github.com/xonaib)! - fix(dashboard): use a unique order country table column id
+
+- [#15605](https://github.com/medusajs/medusa/pull/15605) [`af4dc161cf3ca90f68214138212416bc7b54209b`](https://github.com/medusajs/medusa/commit/af4dc161cf3ca90f68214138212416bc7b54209b) Thanks [@shahednasser](https://github.com/shahednasser)! - chore(dashboard, medusa): validate http(s) scheme on fulfillment label URLs
+
+- Updated dependencies [[`13c5dd22802593f5fb5c0a97076a966704aa56c9`](https://github.com/medusajs/medusa/commit/13c5dd22802593f5fb5c0a97076a966704aa56c9)]:
+  - @medusajs/js-sdk@2.16.0
+  - @medusajs/admin-shared@2.16.0
+  - @medusajs/icons@2.16.0
+  - @medusajs/ui@4.1.16
+
 ## 2.15.5
 
 ### Patch Changes

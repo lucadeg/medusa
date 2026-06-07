@@ -1,5 +1,19 @@
 # @medusajs/types
 
+## 2.16.0
+
+### Minor Changes
+
+- [#15609](https://github.com/medusajs/medusa/pull/15609) [`30f6d407cfaca510939ad161fbbe74feebb97883`](https://github.com/medusajs/medusa/commit/30f6d407cfaca510939ad161fbbe74feebb97883) Thanks [@shahednasser](https://github.com/shahednasser)! - feat(auth-emailpass, types, medusa): require verification by actor type
+
+### Patch Changes
+
+- [#15407](https://github.com/medusajs/medusa/pull/15407) [`46271f2c4f9b4d107a43b588b1082a3e572fbe76`](https://github.com/medusajs/medusa/commit/46271f2c4f9b4d107a43b588b1082a3e572fbe76) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - feat(core-flows,medusa,types): add multi shipping method carts support
+
+- [#15501](https://github.com/medusajs/medusa/pull/15501) [`b74b5b19569534412a67835ffae8fb3afbf6f5c5`](https://github.com/medusajs/medusa/commit/b74b5b19569534412a67835ffae8fb3afbf6f5c5) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(http-types-generator, types): correctly generate types for OperatorMap
+
+- [#15571](https://github.com/medusajs/medusa/pull/15571) [`13c5dd22802593f5fb5c0a97076a966704aa56c9`](https://github.com/medusajs/medusa/commit/13c5dd22802593f5fb5c0a97076a966704aa56c9) Thanks [@shahednasser](https://github.com/shahednasser)! - chore(dashboard,js-sdk,types,auth): extract MFA and recovery code provider interfaces to types package
+
 ## 2.15.5
 
 ### Patch Changes

@@ -1,5 +1,18 @@
 # @medusajs/core-flows
 
+## 2.16.0
+
+### Patch Changes
+
+- [#15407](https://github.com/medusajs/medusa/pull/15407) [`46271f2c4f9b4d107a43b588b1082a3e572fbe76`](https://github.com/medusajs/medusa/commit/46271f2c4f9b4d107a43b588b1082a3e572fbe76) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - feat(core-flows,medusa,types): add multi shipping method carts support
+
+- [#15558](https://github.com/medusajs/medusa/pull/15558) [`e1697b65ff73257939c714dd2c8afdb5efa5e947`](https://github.com/medusajs/medusa/commit/e1697b65ff73257939c714dd2c8afdb5efa5e947) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(file-local, core-flows): improve file resolution + invalid csv file handling
+
+- [#15575](https://github.com/medusajs/medusa/pull/15575) [`46c806036c1f469e949c2da76ae55909c8920bd9`](https://github.com/medusajs/medusa/commit/46c806036c1f469e949c2da76ae55909c8920bd9) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - fix(core-flows): include shipping_method.name in tax calculation context
+
+- Updated dependencies [[`8a6664d6d445f875f56078fad21fe12a185b9627`](https://github.com/medusajs/medusa/commit/8a6664d6d445f875f56078fad21fe12a185b9627), [`20352f4fa2f31e5b491c8b1b244c407392939fbf`](https://github.com/medusajs/medusa/commit/20352f4fa2f31e5b491c8b1b244c407392939fbf)]:
+  - @medusajs/framework@2.16.0
+
 ## 2.15.5
 
 ### Patch Changes

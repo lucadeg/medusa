@@ -1,5 +1,14 @@
 # @medusajs/user
 
+## 2.16.0
+
+### Patch Changes
+
+- [#15603](https://github.com/medusajs/medusa/pull/15603) [`6dd06189fdcb610e85fe2cd59e96862e6ad474df`](https://github.com/medusajs/medusa/commit/6dd06189fdcb610e85fe2cd59e96862e6ad474df) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(user): reject invite tokens that no longer match the stored value
+
+- Updated dependencies [[`8a6664d6d445f875f56078fad21fe12a185b9627`](https://github.com/medusajs/medusa/commit/8a6664d6d445f875f56078fad21fe12a185b9627), [`20352f4fa2f31e5b491c8b1b244c407392939fbf`](https://github.com/medusajs/medusa/commit/20352f4fa2f31e5b491c8b1b244c407392939fbf)]:
+  - @medusajs/framework@2.16.0
+
 ## 2.15.5
 
 ### Patch Changes
