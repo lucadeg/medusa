@@ -1,1 +1,0 @@
-curl -X DELETE '{backend_url}/admin/exchanges/{id}/inbound/items/{action_id}' \ -H 'Authorization: Bearer {jwt_token}'

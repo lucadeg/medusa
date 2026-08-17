@@ -1,8 +1,0 @@
-type: object
-description: The return's details.
-x-schemaName: AdminReturnResponse
-required:
-  - return
-properties:
-  return:
-    $ref: ./AdminReturn.yaml

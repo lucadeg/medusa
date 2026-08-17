@@ -1,2 +1,0 @@
-// noop
-module.exports = {}

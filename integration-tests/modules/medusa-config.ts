@@ -195,6 +195,10 @@ module.exports = defineConfig({
       resolve: "src/modules/brand",
     },
     {
+      key: "aiMediaEngine",
+      resolve: "../packages/modules/ai-media-engine",
+    },
+    {
       key: Modules.RBAC,
       resolve: "@medusajs/rbac",
     },

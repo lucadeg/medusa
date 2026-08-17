@@ -1,1 +1,0 @@
-curl '{backend_url}/auth/mfa/factors'

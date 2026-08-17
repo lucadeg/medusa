@@ -1,1 +1,0 @@
-Directory of old Medusa documentation. You can find it on the [v1.x branch](https://github.com/medusajs/medusa/tree/v1.x)
