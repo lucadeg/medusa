@@ -1,9 +1,13 @@
 const path = require("path")
+const crypto = require("crypto")
 const { spawn } = require("child_process")
 const { setPort, useExpressServer } = require("./use-api")
 const { setContainer } = require("./use-container")
 
 module.exports = async ({ cwd, redisUrl, uploadDir, verbose, env }) => {
+  if (!redisUrl) {
+    throw new Error("A real Redis URL is required for integration tests")
+  }
   const serverPath = path.join(__dirname, "test-server.js")
 
   // in order to prevent conflicts in redis, use a different db for each worker
@@ -20,10 +24,10 @@ module.exports = async ({ cwd, redisUrl, uploadDir, verbose, env }) => {
       env: {
         ...process.env,
         NODE_ENV: "development",
-        JWT_SECRET: "test",
-        COOKIE_SECRET: "test",
-        REDIS_URL: redisUrl ? redisUrlWithDatabase : undefined, // If provided, will use a real instance, otherwise a fake instance
-        UPLOAD_DIR: uploadDir, // If provided, will be used for the fake local file service
+        JWT_SECRET: crypto.randomBytes(48).toString("base64url"),
+        COOKIE_SECRET: crypto.randomBytes(48).toString("base64url"),
+        REDIS_URL: redisUrlWithDatabase,
+        UPLOAD_DIR: uploadDir,
         ...env,
       },
       stdio: verbose
