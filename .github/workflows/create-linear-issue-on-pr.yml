@@ -1,11 +1,9 @@
+
 name: Create Linear Issue on Pull Request
 
 on:
-  pull_request:
-    branches:
-      - develop
-    types: [opened]
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   create-linear-issue-on-pull-request:
     runs-on: ubuntu-latest

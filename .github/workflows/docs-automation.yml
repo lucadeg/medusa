@@ -1,11 +1,7 @@
+
 name: Docs Automation
 
 on:
-  push:
-    branches:
-      - develop
-    paths:
-      - "packages/**"
   workflow_dispatch:
     inputs:
       commit_sha:
@@ -13,6 +9,7 @@ on:
         required: true
         type: string
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 concurrency:
   group: docs-release-staging
   cancel-in-progress: false

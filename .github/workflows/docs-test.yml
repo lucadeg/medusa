@@ -1,9 +1,8 @@
+
 name: Documentation Tests
 on:
-  pull_request:
-    paths:
-      - www/**
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   apps-test:
     if: ${{ startsWith(github.head_ref, 'docs/') }}

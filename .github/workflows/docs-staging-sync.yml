@@ -1,10 +1,9 @@
+
 name: Sync Docs Staging Branch
 
 on:
-  push:
-    branches:
-      - develop
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 concurrency:
   group: docs-release-staging
   cancel-in-progress: false

@@ -1,9 +1,8 @@
+
 name: OAS Comments Format Validation
 on:
-  pull_request:
-    paths:
-      - www/utils/generated/oas-output/**
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   docs-test:
     runs-on: ubuntu-latest

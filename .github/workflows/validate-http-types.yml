@@ -1,12 +1,9 @@
+
 name: Validate HTTP Types
 
 on:
-  pull_request:
-    paths:
-      - "packages/medusa/src/api/**/validators.ts"
-      - "packages/core/types/src/http/**"
-      - "packages/cli/http-types-generator/src/**"
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   validate:
     name: Validate HTTP Types vs Zod Schemas

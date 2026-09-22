@@ -1,10 +1,9 @@
+
 name: i18n Validation
 
 on:
-  pull_request:
-    paths:
-      - packages/admin/dashboard/src/i18n/translations/**
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   i18n-validation-admin-dashboard:
     runs-on: ubuntu-latest

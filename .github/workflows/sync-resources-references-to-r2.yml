@@ -1,3 +1,4 @@
+
 name: Sync Resources References to R2
 
 on:
@@ -7,12 +8,7 @@ on:
         description: "Commit SHA to retrieve changed files from (defaults to HEAD)"
         required: false
         type: string
-  push:
-    branches:
-      - develop
-    paths:
-      - "www/apps/resources/references/**"
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   sync:
     name: Sync changed reference files to R2

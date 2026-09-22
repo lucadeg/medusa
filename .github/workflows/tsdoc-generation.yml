@@ -1,22 +1,9 @@
+
 name: TSDoc Generation
 
 on:
-  push:
-    branches:
-      - develop
-    paths:
-      - "packages/core/types/src/**"
-      - "packages/medusa/src/api/admin/**"
-      - "packages/medusa/src/api/store/**"
-      - "packages/design-system/ui/src/components/**"
-      - "packages/modules/*/src/models/**"
-      - "packages/core/js-sdk/src/**"
-      - "packages/core/utils/src/**"
-      - "packages/core/workflows-sdk/src/utils/composer/**"
-      - "packages/core/core-flows/src/**"
-      - "packages/plugins/loyalty/src/workflows/**"
-      - "packages/plugins/loyalty/src/types/**"
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   generate-tsdocs:
     if: |

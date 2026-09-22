@@ -1,11 +1,9 @@
+
 name: Agent-Friendly Docs
 
 on:
-  pull_request:
-    branches: [develop]
-    paths:
-      - www/apps/book/**
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   agent-docs-check:
     if: ${{ startsWith(github.head_ref, 'docs/') }}

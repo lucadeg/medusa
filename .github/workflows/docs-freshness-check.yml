@@ -1,9 +1,9 @@
+
 # Checks for outdated documentation content and sends notification about it
 name: Docs Freshness Check
 on:
-  schedule:
-    - cron: "0 0 1 * *" # once a month
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   freshness-check:
     runs-on: ubuntu-latest
